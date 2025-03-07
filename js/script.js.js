@@ -1,3 +1,4 @@
-document.getElementById('entrar-tienda').addEventListener('click', function() {
-    document.querySelector('.menu-entrada').style.display = 'none';
+document.getElementById('entrarBtn').addEventListener('click', function() {
+    // Redirige a la página principal
+    window.location.href = 'pagina_principal.html';
 });
