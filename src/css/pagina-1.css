@@ -25,11 +25,11 @@ header {
 }
 
 .header__titulo h1 {
-    /* background-color: violet; */
+     background-color: violet; 
     font-family: "Lobster-Regular";
     font-size: 45px;
-    color: var(--color-5);
     font-weight: normal;
+    color: pink;
 
 }
 
@@ -38,7 +38,7 @@ header {
     font-family: "Poppins-Medium";
     font-size: 18px;
     font-weight: normal;
-    color: var(--color-6);
+    color: pink;
 }
 
 header img {
@@ -53,11 +53,10 @@ header img {
 /******************************************/
 /**************** nav ******************/
 .nav__busqueda {
-    /* background: red;  */
 }
 
 .form__busqueda {
-    padding: 20px 19px 41px 19px;
+    padding: 20px 19px 30px 19px;
     overflow: hidden;
     display: flex;
     gap: 13px;
@@ -66,7 +65,6 @@ header img {
 
 .input__logo {
     flex: 1;
-    /* background: orange;   */
     position: relative;
     display: flex;
     justify-content: flex-start;
@@ -74,7 +72,6 @@ header img {
 }
 
 .input__logo::before {
-     /* background: orange;   */
     content: url(../storage/img/search-normal.png);
     position: absolute;
     padding-left: 10px;
@@ -86,11 +83,11 @@ header img {
     height: 100%;
     font-family: "Roboto-Medium";
     font-size: 18px;
-    color: var(--color-5);
+    color: pink;
     border: none;
     outline: none;
     border-radius: 8px;
-    padding: 0 10px 0 40px;
+    padding: 0px 0px 0 40px;
     box-shadow: 0px 4px 19px var(--color-shadow-1);
 }
 
@@ -99,7 +96,7 @@ header img {
 }
 
 .input__filtro {
-    background-color: aqua;
+
     display: flex;
     position: relative;
     justify-content: center;
@@ -120,34 +117,48 @@ header img {
     flex: 1;
     width: 60px;
     height: 60px;
-    border: none;
+    border: pink;
     outline: none;
     border-radius: 8px;
-    background: black;
+    background: pink;
 }
 
 .nav__categoria {
-    /* background: green; */
-    margin: 0px 19px 0;
-    display: flex;
-    overflow-x: scroll;
-    gap: 14px;
+    margin: 0px 0px 0px 0px;
+    scroll-snap-type: x mandatory;
 }
 
 .nav__categoria li {
-    background: var(--color-8);
-    flex: 1;
+    scroll-snap-align: start;
+}
+
+.nav__categoria {
+    margin: 0 19px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 14px;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.nav__categoria li {
+    flex-shrink: 0;
     list-style: none;
-    border-radius: 20px;
+    border-radius: 8px;
     min-width: 120px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-snap-align: start;
+    border: 1px solid pink; /* Borde rosa */
+}
+
+.nav__categoria li:first-child {
+    background: pink; /* Fondo rosa para el primer elemento */
 }
 
 .nav__categoria li a {
-    /* background: yellow; */
     text-decoration: none;
     color: var(--color-6);
     font-family: "Inter_18pt-Medium";
@@ -170,5 +181,15 @@ li:active a {
     color: var(--color-9);
 }
 
-/******************************************/
-/**************** main ******************/
+.nav__categoria::-webkit-scrollbar {
+    height: 8px;
+}
+
+.nav__categoria::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.nav__categoria::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
