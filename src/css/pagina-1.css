@@ -146,7 +146,7 @@ header img {
     list-style: none;
     border-radius: 8px;
     min-width: 120px;
-    height: 50px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,4 +192,102 @@ li:active a {
 
 .nav__categoria::-webkit-scrollbar-track {
     background: #f1f1f1;
+}
+main{
+    padding: 41px 19px 0px;
+}
+.section__productos {
+    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.article__contenedora {
+    background: var(--color-4);
+    width: 47%;
+    margin-bottom: 5%;
+    height: 225px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 6px 17px var(--color-shadow-2);
+    position: relative;
+}
+.article__contenedora::after{
+    content: " ";
+    width: 90px;
+    height: 5px;
+    backdrop-filter: invert(10px);
+    background: var(--color-shadow-1);
+    border-radius: 100%;
+    position: absolute;
+    z-index: 5;
+    inset: 0;
+    margin: auto;
+}
+.article__contenedora a{
+    height: 130px;
+    padding: 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.article__contenedora a img{
+    /* background: red; */
+    width: 100%;
+    object-fit: contain;
+}
+
+.div__informacion {
+     /* background: violet;  */
+    display: flex;
+    flex-direction: column;
+    padding: 0 11px;
+
+}
+.div__informacion strong{
+    /* background-color: red; */
+    font-family: "Roboto-SemiBold";
+    color: var(--color-5);
+    overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.div__informacion p{
+   font-family: "Roboto-Regular";
+   color: var(--color-5);
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.div__comentarios {
+    /* background: bisque; */
+    padding: 0 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__valoracion {
+    /* background: green; */
+    display: flex;
+    gap: 3px;
+}
+.div__valoracion > img{
+    /* background: blue; */
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+.div__valoracion label{
+    font-family: "Roboto-Medium";
+    color: var(--color-5);
+}
+.div__comentarios > img{
+    /* background-color: black; */
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
