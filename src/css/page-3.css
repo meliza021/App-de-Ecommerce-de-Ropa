@@ -22,15 +22,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: var(--color-1);
-    border: 1px solid var(--color-11);
+    width: 30px;
+    height: 30px;
+    background: white;
+    border: 1px solid black;
     border-radius: 100px;
 }
 .button__back img{
-    width: 24px;
-    height: 24px;
+    width: 10px;
+    height: 10px;
 }
 h1{
     font-family: "EncodeSans-SemiBold";
@@ -43,8 +43,8 @@ h1{
     justify-content: center;
     width: 40px;
     height: 40px;
-    background: var(--color-1);
-    border: 1px solid var(--color-11);
+    background: white;
+    border: 1px solid black;
     border-radius: 100px;
 }
 .button__menu img{
