@@ -199,15 +199,15 @@ footer {
 }
 
 .color-buttons button:nth-child(1) {
-    background-color: #ad10c2;
+    background-color: #38c0ff;
 }
 
 .color-buttons button:nth-child(2) {
-    background-color: black;
+    background-color: rgb(40, 8, 226);
 }
 
 .color-buttons button:nth-child(3) {
-    background-color: rgb(129, 6, 129);
+    background-color: rgb(126, 122, 126);
 }
 
 .add-to-cart-button {
