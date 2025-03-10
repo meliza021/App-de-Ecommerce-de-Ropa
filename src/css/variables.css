@@ -10,3 +10,11 @@
     --color-8: #878787;
 
 }
+@font-face {
+    font-family: "SemiBold";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Regular";
+    src: url(../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf);
+}

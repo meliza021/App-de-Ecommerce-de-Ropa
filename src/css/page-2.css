@@ -55,7 +55,6 @@ main {
 }
 
 .titulo {
-    background-color: red;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -63,17 +62,21 @@ main {
 }
 
 .titulo-2 {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex; 
-    width: 90%;
+    width: 80%;
     flex-direction: column;
-    align-items: center;
+    font-family: "SemiBold";
+    font-size: 14px;
+    margin-top: 30px;
 
 }
 
 .parrafo {
     display: flex;
     align-items: center;
+    font-family: "Regular";
+    font-size: 12px;
 }
 
 .parrafo img {
@@ -84,18 +87,49 @@ main {
     margin-right: 10px;
 }
 
-.final{
+.final {
     width: 30%;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    margin-top: 40px;
+}
+.reviews{
+    color: var(--color-7);
+}
+.final button {
+    margin: 0 5px;
+    border-radius: 50%; 
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
 }
 
-.final button {
-    margin: 0 5px; 
+.final button:hover {
+    background-color: #f0f0f0; 
 }
 
 .final input {
-    width: 30px; 
-    text-align: center; 
+    width: 20px;
+    text-align: center;
     margin: 0 5px;
+    border: none; /* Elimina el borde */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: red;
+}
+.footer-description{
+    background-color: aqua;
+    padding: 20px;
 }
