@@ -1,0 +1,250 @@
+@import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.imagen{
+    margin-left: 110px;
+}
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+    z-index: 1;
+
+}
+.boton-1{
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+}
+.boton-1 img {
+    margin-right: 2px;
+}
+.boton-2{
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.boton-2 img
+    {
+      margin-top: 5px;
+    }
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+.imagen img {
+    display: flex;
+    height: 310px; 
+    align-items: center;
+    margin-top: -60px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 10px;
+    margin-left: 18px;
+}
+
+.titulo-2 {
+    /* background-color: aqua; */
+    display: flex; 
+    width: 80%;
+    flex-direction: column;
+    font-family: "SemiBold";
+    font-size: 14px;
+    margin-top: 30px;
+
+}
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    font-family: "Regular";
+    font-size: 12px;
+}
+
+.parrafo img {
+    margin-right: 5px;
+}
+
+.parrafo p {
+    margin-right: 10px;
+}
+
+.final {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+.reviews{
+    color: pink;
+}
+.final button {
+    margin: 0 5px;
+    border-radius: 50%; 
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid gray;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border: none;
+    background-color: pink;
+}
+.Read{
+    color: pink;
+}
+.final button:hover {
+    background-color: #f0f0f0; 
+}
+
+.final input {
+    width: 20px;
+    text-align: center;
+    margin: 0 5px;
+    border: none; /* Elimina el borde */
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-description {
+    padding: 20px;
+    font-family: "EncodeSans-Light";
+    margin-left: 8px;
+}
+
+.footer-size {
+    font-size: 13px;
+    color: black;
+    margin-left: 20px;
+}
+
+.size-buttons button {
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-right: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.size-buttons button:hover {
+    transform: scale(1.1);
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+.size-buttons button:active {
+    transform: scale(0.95);
+    background-color: palevioletred;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.medio {
+    display: flex;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.final-2 {
+    width: 50%;
+    margin-left: 60px;
+}
+
+.color-buttons button {
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.color-buttons button:nth-child(1) {
+    background-color: #ad10c2;
+}
+
+.color-buttons button:nth-child(2) {
+    background-color: black;
+}
+
+.color-buttons button:nth-child(3) {
+    background-color: rgb(129, 6, 129);
+}
+
+.add-to-cart-button {
+    background-color: pink;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin: 20px;
+
+  }
+  
+  .cart-image {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .old-price {
+    font-size: 12px; 
+    text-decoration: line-through; 
+    margin-left: 5px; 
+  }
+  footer details summary.Read::-webkit-details-marker {
+    display: none !important;
+  }
+  
+  footer details summary.Read::marker {
+    display: none !important;
+  }
+  .add-to-cart-button {
+    text-decoration: none; /* Elimina el subrayado */
+    /* ... otros estilos ... */
+  }
