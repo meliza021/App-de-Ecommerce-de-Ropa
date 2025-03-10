@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 header{
-    background-color: pink;
     display: flex;
     justify-content: space-between;
     padding: 24px;
@@ -17,10 +16,11 @@ header{
     width: 100%;
     justify-content: space-between;
     border: none;
+    z-index: 1;
 
 }
 .boton-1{
-    background-color: white;
+    background-color: pink;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -30,7 +30,7 @@ header{
     margin-right: 2px;
 }
 .boton-2{
-    background-color: white;
+    background-color: pink;
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -42,4 +42,14 @@ header{
     {
       margin-top: 5px;
     }
-
+main {
+    display: flex;
+    justify-content: center;
+    }
+    
+.imagen img {
+    display: flex;
+    height: 340px; 
+    align-items: center;
+    margin-top: -60px;
+    }
