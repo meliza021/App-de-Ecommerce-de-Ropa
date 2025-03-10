@@ -1,0 +1,585 @@
+@import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************* header *************/
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+}
+.div__header {
+    display: flex;
+    width: 100%;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.button__back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__back img{
+    width: 24px;
+    height: 24px;
+}
+h1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 16px;
+    line-height: 140%;
+}
+.button__menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__menu img{
+    width: 24px;
+    height: 24px;
+}
+/*********************************/
+/************* main *************/
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+}
+.div__clothe1{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+}
+.clothe1{
+    width: 70px;
+    border-radius: 14px;
+}
+.div__info-clothe1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+    height: 100px;
+}
+.title-clothe1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-3);
+}
+.category-clothe1{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    line-height: auto;
+    color: var(--color-7);
+    margin-top: 5px;
+}
+.price-clothe1{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+    margin-top: 16px;
+}
+.div__info2-clothe1{
+    display: flex;
+    flex-direction: column;
+}
+.button__settings{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+}
+.button__settings img{
+    width: 24px;
+    height: 24px;
+}
+.div__quantity-clothe1{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-top: 15px;
+}
+.button__minus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__minus img{
+    width: 16px;
+    height: 16px;
+}
+.input1{
+    background: transparent;
+    margin-left: 5px;
+    margin-right: -12px;
+    width: 40px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    text-align: center;
+}
+.button__add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__add img{
+    width: 16px;
+    height: 16px;
+}
+hr{
+    margin-top: 24px;
+    border: 1px solid var(--color-21);
+}
+.div__clothe2{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.clothe2{
+    width: 70px;
+    object-fit: contain;
+    border-radius: 14px;
+    border: 1px solid var(--color-11);
+}
+.div__info-clothe2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+    height: 100px;
+}
+.title-clothe2{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-3);
+}
+.category-clothe2{
+    font-family: "EncodeSans-Regular";
+    font-size: 10px;
+    line-height: auto;
+    color: var(--color-7);
+    margin-top: 5px;
+}
+.price-clothe2{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+    margin-top: 16px;
+}
+.div__info2-clothe2{
+    display: flex;
+    flex-direction: column;
+}
+.button__settings{
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+}
+.button__settings img{
+    width: 24px;
+    height: 24px;
+}
+.div__quantity-clothe2{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-top: 15px;
+}
+.button__minus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__minus img{
+    width: 16px;
+    height: 16px;
+}
+.input2{
+    background: transparent;
+    margin-left: 5px;
+    margin-right: -12px;
+    width: 40px;
+    height: 24px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    text-align: center;
+}
+.button__add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-1);
+    border: 1px solid var(--color-11);
+    border-radius: 100px;
+}
+.button__add img{
+    width: 16px;
+    height: 16px;
+}
+/*****************************/
+/********** Media ***********/
+@media screen and (max-width: 340px) {
+    .clothe1{
+        width: 100px;
+        height: 55px;
+        border-radius: 14px;
+    }
+    .title-clothe1{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 12px;
+        line-height: auto;
+        color: var(--color-3);
+    }
+    .category-clothe1{
+        font-family: "EncodeSans-Regular";
+        font-size: 10px;
+        line-height: auto;
+        color: var(--color-7);
+        margin-top: 2px;
+    }
+    .price-clothe1{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 14px;
+        line-height: auto;
+        color: var(--color-5);
+        margin-top: 6px;
+    }
+    .button__settings{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border: none;
+        border-radius: 100px;
+        margin-top: -5px;
+        margin-left: auto;
+    }
+    .div__quantity-clothe1{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        margin-top: 0px;
+    }
+}
+hr{
+    margin-top: 24px;
+    border: 1px solid var(--color-21);
+}
+
+/************** shopping-info **************/
+.title-shopping-info{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: 140%;
+    color: var(--color-3);
+    margin-bottom: 22px;
+    margin-top: 35px;
+}
+.div__credit-card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    background: var(--color-10);
+    border-radius: 8px;
+    padding: 0px 20px 0px 20px;
+}
+.div__credit-card img{
+    width: 45px;
+    height: 30px;
+    margin-right: 12px;
+}
+.number-credit-card{
+    display: flex;
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+}
+.number-credit-card2{
+    display: flex;
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    margin-left: 5px;
+    color: var(--color-5);
+}
+.button__options{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100px;
+    margin-left: auto;
+}
+.button__options img{
+    width: 24px;
+    height: 24px;
+}
+.div__money{
+    display: flex;
+    width: 100%;
+    height: 78px;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.div__names{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+}
+.div__names p{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+}
+.shipping-fee{
+    margin-top: 12px;
+}
+.discount{
+    margin-top: 12px;
+}
+.div__prices{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    flex-direction: column;
+    align-items: end;
+}
+.div__prices p{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-4);
+}
+.shipping-fee-price{
+    margin-top: 12px;
+}
+.discount-price{
+    margin-top: 12px;
+}
+hr{
+    margin-top: 24px;
+    border: 1px solid var(--color-21);
+}
+.div__total{
+    display: flex;
+    width: 100%;
+    height: 18px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.div__subtotal{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+.subtotal{
+    font-family: "EncodeSans-Regular";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-5);
+    margin-top: 12px;
+}
+.div__subtotal-price{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+}
+.subtotal-price{
+    font-family: "EncodeSans-SemiBold";
+    font-size: 14px;
+    line-height: auto;
+    color: var(--color-4);
+    margin-top: 12px;
+}
+/*********************************/
+/************* footer *************/
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 44px 24px 24px 24px;
+}
+.div__slash{
+    background-color: var(--color-5);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+}
+.div__slash button{
+    border: none;
+    background: transparent;
+}
+.div__slash button a{
+    text-decoration: none;
+}
+.text{
+    font-family: "EncodeSans-Bold";
+    font-size: 14px;
+    line-height: 154%;
+    color: var(--color-18);
+}
+/*****************************/
+/********** Media ***********/
+@media screen and (max-width: 340px) {
+    .clothe1{
+        width: 100px;
+        height: 55px;
+        border-radius: 14px;
+    }
+    .title-clothe1{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 12px;
+        line-height: auto;
+        color: var(--color-3);
+    }
+    .category-clothe1{
+        font-family: "EncodeSans-Regular";
+        font-size: 10px;
+        line-height: auto;
+        color: var(--color-7);
+        margin-top: 2px;
+    }
+    .price-clothe1{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 14px;
+        line-height: auto;
+        color: var(--color-5);
+        margin-top: 6px;
+    }
+    .button__settings{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border: none;
+        border-radius: 100px;
+        margin-top: -5px;
+        margin-left: auto;
+    }
+    .div__quantity-clothe1{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .clothe2{
+        width: 100px;
+        height: 55px;
+        border-radius: 14px;
+    }
+    .title-clothe2{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 12px;
+        line-height: auto;
+        color: var(--color-3);
+    }
+    .category-clothe2{
+        font-family: "EncodeSans-Regular";
+        font-size: 10px;
+        line-height: auto;
+        color: var(--color-7);
+        margin-top: 2px;
+    }
+    .price-clothe2{
+        font-family: "EncodeSans-SemiBold";
+        font-size: 14px;
+        line-height: auto;
+        color: var(--color-5);
+        margin-top: 6px;
+    }
+    .button__settings{
+        display: flex;
+        background: transparent;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        border: none;
+        border-radius: 100px;
+        margin-top: -5px;
+        margin-left: auto;
+    }
+    .div__quantity-clothe2{
+        display: flex;
+        width: 100%;
+        height: 40px;
+        align-items: center;
+        margin-top: 0px;
+    }
+    hr{
+        margin-top: 10px;
+        border: 1px solid var(--color-21);
+    }
+}
