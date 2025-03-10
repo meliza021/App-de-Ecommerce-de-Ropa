@@ -140,30 +140,62 @@ footer{
 }
 .size-buttons{
 }
-.size-buttons button{
-    background-color: pink;
+.size-buttons button { 
+    background-color: white;
     border: none;
     border-radius: 100%;
     width: 25px;
     height: 25px;
     margin-top: 10px;
+    margin-right: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
 
+.size-buttons button:hover {
+    transform: scale(1.1);
+    background-color: lightpink;
+    cursor: pointer;
+}
+
+.size-buttons button:active {
+    transform: scale(0.95);
+    background-color: palevioletred;
 }
 
 .todo{
     display: flex;
-    background-color: red;
+    /* background-color: red; */
     justify-content: space-between;
     margin-top: 10px;
 }
 .medio{
     display: flex;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     width: 50%;
     margin-left: 10px;
 
 }
 .final-2{
-    background-color: pink;
+    /* background-color: pink; */
     width: 50%;
+}
+.color-buttons button { 
+    background-color: white;
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    right: 30px;
+}
+.color-buttons button:nth-child(1){
+    background-color: pink;
+}
+.color-buttons button:nth-child(2){
+    background-color: black;
+}
+.color-buttons button:nth-child(3){
+    background-color: gray;
 }
