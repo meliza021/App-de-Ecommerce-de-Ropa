@@ -59,6 +59,7 @@ main {
     align-items: center;
     flex-direction: row;
     padding: 0px 10px;
+    margin-left: 18px;
 }
 
 .titulo-2 {
@@ -92,9 +93,10 @@ main {
     display: flex;
     align-items: center;
     margin-top: 40px;
+    margin-right: 12px;
 }
 .reviews{
-    color: var(--color-7);
+    color: pink;
 }
 .final button {
     margin: 0 5px;
@@ -108,8 +110,12 @@ main {
     align-items: center;
     cursor: pointer; 
     transition: background-color 0.3s ease; 
+    border: none;
+    background-color: pink;
 }
-
+.Read{
+    color: pink;
+}
 .final button:hover {
     background-color: #f0f0f0; 
 }
@@ -123,24 +129,25 @@ main {
     border-radius: 5px;
     font-size: 15px;
 }
-footer{
+footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.footer-description{
+
+.footer-description {
     padding: 20px;
     font-family: "EncodeSans-Light";
-    
+    margin-left: 8px;
 }
-.footer-size{
-    font-size: "bold";
+
+.footer-size {
     font-size: 13px;
     color: black;
+    margin-left: 20px;
 }
-.size-buttons{
-}
-.size-buttons button { 
+
+.size-buttons button {
     background-color: white;
     border: none;
     border-radius: 100%;
@@ -162,24 +169,24 @@ footer{
     background-color: palevioletred;
 }
 
-.todo{
+.todo {
     display: flex;
-    /* background-color: red; */
     justify-content: space-between;
     margin-top: 10px;
 }
-.medio{
+
+.medio {
     display: flex;
-    /* background-color: aquamarine; */
     width: 50%;
     margin-left: 10px;
+}
 
-}
-.final-2{
-    /* background-color: pink; */
+.final-2 {
     width: 50%;
+    margin-left: 60px;
 }
-.color-buttons button { 
+
+.color-buttons button {
     background-color: white;
     border: none;
     border-radius: 100%;
@@ -188,14 +195,55 @@ footer{
     margin-top: 5px;
     margin-right: 5px;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    right: 30px;
 }
-.color-buttons button:nth-child(1){
+
+.color-buttons button:nth-child(1) {
     background-color: pink;
 }
-.color-buttons button:nth-child(2){
+
+.color-buttons button:nth-child(2) {
     background-color: black;
 }
-.color-buttons button:nth-child(3){
+
+.color-buttons button:nth-child(3) {
     background-color: gray;
 }
+
+.add-to-cart-button {
+    background-color: pink;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin: 20px;
+
+  }
+  
+  .cart-image {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+  }
+  
+  .old-price {
+    font-size: 12px; 
+    text-decoration: line-through; 
+    margin-left: 5px; 
+  }
+  footer details summary.Read::-webkit-details-marker {
+    display: none !important;
+  }
+  
+  footer details summary.Read::marker {
+    display: none !important;
+  }
+  .add-to-cart-button {
+    text-decoration: none; /* Elimina el subrayado */
+    /* ... otros estilos ... */
+  }
