@@ -1,1 +1,45 @@
-@import()
+@import url(variables.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+
+
+}
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: none;
+
+}
+.boton-1{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+}
+.boton-1 img {
+    margin-right: 2px;
+}
+.boton-2{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+.boton-2 img
+    {
+      margin-top: 5px;
+    }
+
