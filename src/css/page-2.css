@@ -127,9 +127,43 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
 }
 .footer-description{
-    background-color: aqua;
     padding: 20px;
+    font-family: "EncodeSans-Light";
+    
+}
+.footer-size{
+    font-size: "bold";
+    font-size: 13px;
+    color: black;
+}
+.size-buttons{
+}
+.size-buttons button{
+    background-color: pink;
+    border: none;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+
+}
+
+.todo{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.medio{
+    display: flex;
+    background-color: aquamarine;
+    width: 50%;
+    margin-left: 10px;
+
+}
+.final-2{
+    background-color: pink;
+    width: 50%;
 }
