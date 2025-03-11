@@ -151,22 +151,18 @@ header img {
     justify-content: center;
     align-items: center;
     scroll-snap-align: start;
-    border: 1px solid pink; /* Borde rosa */
+    border: 1px solid pink; 
 }
-
-.nav__categoria li:first-child {
-    background: pink; /* Fondo rosa para el primer elemento */
+ 
+.nav__categoria li:nth-child(2) {
+    background: pink; 
 }
 
 .nav__categoria li a {
     text-decoration: none;
-    color: var(--color-6);
     font-family: "Inter_18pt-Medium";
     font-size: 16px;
-}
-
-li.select {
-    background: var(--color-3);
+    color: black;
 }
 
 li.select a {
