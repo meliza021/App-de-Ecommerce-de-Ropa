@@ -29,8 +29,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentValue = Math.round(startValue + (endValue - startValue) * percentage);
             element.value = currentValue;
 
+            // Cambiar el color de fondo y el borde a rosado
+            element.style.transition = `background-color ${duration}ms ease, border-color ${duration}ms ease`;
+            element.style.backgroundColor = `#ff66b2`; // Fondo rosado
+            element.style.borderColor = `#ff66b2`; // Borde rosado
+
             if (progress < duration) {
                 window.requestAnimationFrame(step);
+            } else {
+                // Revertir el color después de la animación
+                setTimeout(() => {
+                    element.style.backgroundColor = ''; // Restablecer el color de fondo
+                    element.style.borderColor = ''; // Restablecer el color del borde
+                }, 100); // Hace que el color vuelva a la normalidad después de un breve tiempo
             }
         }
 

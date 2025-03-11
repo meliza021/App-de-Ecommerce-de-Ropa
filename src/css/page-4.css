@@ -106,7 +106,7 @@ header img {
 }
 
 .input__filtro::after {
-    content: url(../storage/img/01.png);
+    content: url(../storage/img/Favourite.png);
     width: auto;
     height: auto;
     display: flex;
