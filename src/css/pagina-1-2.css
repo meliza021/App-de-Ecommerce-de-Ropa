@@ -200,7 +200,7 @@ main{
 }
 .article__contenedora {
     background: var(--color-4);
-    width: 38%;
+    width: 50%;
     margin-bottom: 5%;
     height: 225px;
     display: flex;
