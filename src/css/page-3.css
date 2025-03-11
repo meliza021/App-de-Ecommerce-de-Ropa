@@ -44,10 +44,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    background: white;
-    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background: pink;
+    border: 1px solid pink;
     border-radius: 100px;
 }
 .button__menu img{
@@ -414,7 +414,7 @@ hr{
     font-family: "EncodeSans-SemiBold";
     font-size: 14px;
     line-height: auto;
-    color: var(--color-4);
+    color: rgb(54, 51, 51);
 }
 .shipping-fee-price{
     margin-top: 12px;

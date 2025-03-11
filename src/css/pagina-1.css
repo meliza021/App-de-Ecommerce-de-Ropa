@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "inter";
 }
 
 body {
@@ -25,11 +26,11 @@ header {
 }
 
 .header__titulo h1 {
-     background-color: violet; 
-    font-family: "Lobster-Regular";
+     /* background-color: violet;  */
+    /* font-family: "Lobster-Regular"; */
     font-size: 45px;
+    font-family: "Bold";
     font-weight: normal;
-    color: pink;
 
 }
 
@@ -161,7 +162,7 @@ header img {
 .nav__categoria li a {
     text-decoration: none;
     color: var(--color-6);
-    font-family: "Inter_18pt-Medium";
+    font-family: "";
     font-size: 16px;
 }
 
@@ -250,7 +251,7 @@ main{
 }
 .div__informacion strong{
     /* background-color: red; */
-    font-family: "Roboto-SemiBold";
+    font-family: "inter";
     color: var(--color-5);
     overflow: hidden;
    white-space: nowrap;
@@ -339,3 +340,6 @@ footer:hover::after{
 }
 
 /******************************************/
+.rooto{
+    margin-right: 80px;
+}

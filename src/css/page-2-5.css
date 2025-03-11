@@ -10,7 +10,7 @@ header{
     padding: 24px;
 }
 .imagen{
-    margin-left: 110px;
+    margin-left: 30px;
 }
 .botones{
     display: flex;
@@ -199,15 +199,15 @@ footer {
 }
 
 .color-buttons button:nth-child(1) {
-    background-color: #8ed8fa;
+    background-color: pink;
 }
 
 .color-buttons button:nth-child(2) {
-    background-color: rgb(40, 8, 226);
+    background-color: rgb(218, 160, 169);
 }
 
 .color-buttons button:nth-child(3) {
-    background-color: rgb(126, 122, 126);
+    background-color: rgb(129, 6, 129);
 }
 
 .add-to-cart-button {

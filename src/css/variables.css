@@ -19,10 +19,14 @@
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf);
 }
 @font-face {
-    font-family: "Bold";
+    font-family: "bold";
     src: url(../storage/font/Encode_Sans/static/Bold);
 }
 @font-face {
     font-family: "EncodeSans-Light";
     src: url(../storage/font/Encode_Sans/static/EncodeSans-Light.ttf);
+}
+@font-face {
+    font-family: "inter";
+    src: url(../storage/font/Inter/static/Inter_18pt-Bold.ttf);
 }

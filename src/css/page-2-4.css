@@ -245,6 +245,6 @@ footer {
     display: none !important;
   }
   .add-to-cart-button {
-    text-decoration: none; /* Elimina el subrayado */
-    /* ... otros estilos ... */
+    text-decoration: none; 
+
   }

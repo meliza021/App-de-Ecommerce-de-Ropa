@@ -9,9 +9,7 @@ header{
     justify-content: space-between;
     padding: 24px;
 }
-.imagen{
-    margin-left: 90px;
-}
+
 .botones{
     display: flex;
     width: 100%;
@@ -199,7 +197,7 @@ footer {
 }
 
 .color-buttons button:nth-child(1) {
-    background-color: #550b55;
+    background-color: red;
 }
 
 .color-buttons button:nth-child(2) {
