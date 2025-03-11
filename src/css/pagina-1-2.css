@@ -288,3 +288,53 @@ main{
     height: 20px;
     object-fit: cover;
 }
+/**************** footer ******************/
+footer{
+    background: pink;
+    background-size: cover;
+    width: 100%;
+    height: 62px;
+    padding: 17px 50px 17px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: -1px;
+    z-index: 10;
+    border-radius: 50px;
+    margin-top: 90px;
+
+}
+footer:hover::after{
+     /* background: black;  */
+}
+.div__izquierdo {
+     /* background: blue;  */
+    display: flex;
+    gap:50px;
+}
+.div__izquierdo a{
+
+}
+.div__izquierdo a img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+
+}
+.div__derecho {
+    /* background: green; */
+    display: flex;
+    gap:60px;
+}
+.div__derecho a{
+    /* background-color: bisque; */
+
+}
+.div__derecho a img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+
+}
+
+/******************************************/
