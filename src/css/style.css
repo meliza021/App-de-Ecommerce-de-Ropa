@@ -40,21 +40,29 @@ body {
     animation: fadeIn 1s ease-out, pulse 2s infinite ease-in-out;
 }
 
-.boton-animado {
+.entrada a {
+    color: white;
     padding: 20px 50px;
     font-size: 1.2em;
-    background: linear-gradient(135deg, #ff00cc, #33ccff);
-    color: #fff;
+    background: linear-gradient(135deg, #ff00cc, #33ccff); 
+    text-decoration: none; 
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    display: inline-block; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.boton-animado:hover {
+.entrada a:hover {
     transform: scale(1.1);
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 14px 28p white; } 
+
+.entrada a:focus {
+    outline: none; /* Eliminar el borde azul cuando se hace clic */
 }
+
+
+
 
 .luces-fondo {
     position: absolute;

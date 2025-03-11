@@ -154,7 +154,7 @@ header img {
     border: 1px solid pink; /* Borde rosa */
 }
 
-.nav__categoria li:nth-child(2) {
+.nav__categoria li:first-child {
     background: pink; /* Fondo rosa para el primer elemento */
 }
 
@@ -269,4 +269,25 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.div__valoracion {
+    /* background: green; */
+    display: flex;
+    gap: 3px;
+}
+.div__valoracion > img{
+    /* background: blue; */
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+.div__valoracion label{
+    font-family: "Roboto-Medium";
+    color: var(--color-5);
+}
+.div__comentarios > img{
+    /* background-color: black; */
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
